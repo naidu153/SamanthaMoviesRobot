@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('mongodb+srv://movieadda:nn56381373@movieadda.y7ntklw.mongodb.net/?retryWrites=true&w=majority&appName=movieadda', "")
+DATABASE_URI = environ.get('mongodb+srv://copycatzero1:UTnD2gMumCwmNDNV@copycat.u4rls.mongodb.net/?retryWrites=true&w=majority&appName=copycat', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "PIRO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
